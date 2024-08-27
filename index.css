@@ -15,10 +15,11 @@
 
 .heading{
     display: flex;
+    flex-direction: column;
     font-family: 'CustomFont';
-    align-items: center;
     margin-left: 2rem;
-    gap: 3rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
 }
 
 .heading-title{
@@ -178,20 +179,20 @@ body{
 }
 
 .button-wrapper {
-    display: flex; 
-    justify-content: center; 
+    /* display: flex;  */
+    /* justify-content: center;  */
     margin-top: 20px; 
 }
 
 .container-button {
-    padding: 10px 20px; 
-    font-size: 13px; 
+    padding: 10px 0px; 
+    font-size: 11px; 
     color: #066afe; 
     background-color: #ffffff; 
-
     border: 1px solid black; 
     border-radius: 2rem; 
     cursor: pointer; 
+    width: 50%; /* Full width */
 }
 
 .container-button:hover {
